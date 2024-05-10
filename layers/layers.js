@@ -9,7 +9,7 @@ var wms_layers = [];
             
             source: new ol.source.XYZ({
     attributions: ' ',
-                url: 'https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}@2x.png'
+                url: 'https://tiles.stadiamaps.com/styles/alidade_smooth.json?api_key=afee1c8e-b3d2-4d31-a393-72814345124b'
             })
         });
 var format_CO_1 = new ol.format.GeoJSON();
